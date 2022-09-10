@@ -1,0 +1,22 @@
+html {
+				background-color: dimgray;
+				background-position: center;
+				color: white
+			}
+			a{
+				font-size: 20px;
+				color: orange;
+			}
+			a:hover {
+				color: blue;
+			}
+			h1 {
+				font-size: 50px;
+			}
+			div {
+				height: 30px;
+				width: 100%;
+			}
+			h2 {
+				font-size: 30px;
+			}
