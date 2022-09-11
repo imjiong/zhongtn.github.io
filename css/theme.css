@@ -1,7 +1,8 @@
 html {
 				background-color: dimgray;
 				background-position: center;
-				color: white
+				color: white;
+				font-family: "ui-monospace","SFMono-Regular","SF Mono","Menlo","Consolas","Liberation Mono","monospace !important";
 			}
 			a{
 				font-size: 20px;
