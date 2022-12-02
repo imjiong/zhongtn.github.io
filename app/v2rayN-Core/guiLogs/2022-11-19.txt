@@ -1,0 +1,62 @@
+2022-11-19 16:37:26,521 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.36 - 2022/09/20 | G:\Users\liqian\Downloads\v2rayN-Core\v2rayN.exe
+2022-11-19 16:37:55,984 [15] DEBUG Log2 - 发送请求时出错。
+2022-11-19 16:37:55,990 [15] DEBUG Log2 - System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-11-19 16:37:58,291 [9] DEBUG Log2 - 发送请求时出错。
+2022-11-19 16:37:58,291 [9] DEBUG Log2 - System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 未能解析此远程名称: 'dashboard.shadowrhythm.xyz'
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-11-19 16:38:27,917 [3] INFO  Log1 - UpdateTaskRun
+2022-11-19 16:39:15,041 [21] DEBUG Log2 - 已取消一个任务。
+2022-11-19 16:39:15,043 [21] DEBUG Log2 - System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-11-19 16:44:28,123 [10] DEBUG Log2 - The request returned with HTTP status code NotFound
+2022-11-19 16:44:28,127 [10] DEBUG Log2 - System.Exception: The request returned with HTTP status code NotFound
+   在 v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-11-19 16:44:30,502 [10] DEBUG Log2 - The request returned with HTTP status code NotFound
+2022-11-19 16:44:30,504 [10] DEBUG Log2 - System.Exception: The request returned with HTTP status code NotFound
+   在 v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-11-19 16:44:32,426 [10] DEBUG Log2 - The request returned with HTTP status code NotFound
+2022-11-19 16:44:32,428 [10] DEBUG Log2 - System.Exception: The request returned with HTTP status code NotFound
+   在 v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-11-19 17:40:22,092 [1] INFO  Log1 - MyAppExit Begin
+2022-11-19 17:40:22,320 [1] INFO  Log1 - MyAppExit End

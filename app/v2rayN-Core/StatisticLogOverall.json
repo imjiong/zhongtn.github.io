@@ -1,0 +1,92 @@
+{
+  "server": [
+    {
+      "itemId": "4906184366373041461",
+      "totalUp": 1305870673,
+      "totalDown": 726166504,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "5057658765841439861",
+      "totalUp": 233657,
+      "totalDown": 3158035,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "4896756303417694044",
+      "totalUp": 0,
+      "totalDown": 0,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "5669942920761110609",
+      "totalUp": 668538,
+      "totalDown": 947096,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "5559488753457750006",
+      "totalUp": 9917,
+      "totalDown": 11957,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "5616092526108405164",
+      "totalUp": 13463,
+      "totalDown": 27603,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "5293689883822403646",
+      "totalUp": 3442515,
+      "totalDown": 576938002,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "5672471964589295905",
+      "totalUp": 1125306,
+      "totalDown": 24303800,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "4688831020572082022",
+      "totalUp": 74512,
+      "totalDown": 14808458,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "5231264079767697366",
+      "totalUp": 963,
+      "totalDown": 9342,
+      "todayUp": 0,
+      "todayDown": 0,
+      "dateNow": 638054496000000000
+    },
+    {
+      "itemId": "4885398446129638637",
+      "totalUp": 990843,
+      "totalDown": 95468011,
+      "todayUp": 14856,
+      "todayDown": 38658918,
+      "dateNow": 638054496000000000
+    }
+  ]
+}

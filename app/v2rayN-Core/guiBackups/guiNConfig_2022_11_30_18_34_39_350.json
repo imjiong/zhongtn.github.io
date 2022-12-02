@@ -1,0 +1,650 @@
+{
+  "logEnabled": false,
+  "loglevel": "warning",
+  "indexId": "4885398446129638637",
+  "muxEnabled": false,
+  "sysProxyType": 0,
+  "enableStatistics": true,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 1,
+  "remoteDNS": "",
+  "domainStrategy4Freedom": null,
+  "defAllowInsecure": false,
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": "linear",
+  "routingIndex": 0,
+  "enableRoutingAdvanced": true,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": "",
+  "systemProxyAdvancedProtocol": null,
+  "autoUpdateInterval": 0,
+  "autoUpdateSubInterval": 0,
+  "checkPreReleaseUpdate": false,
+  "enableSecurityProtocolTls13": true,
+  "trayMenuServersLimit": 30,
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true,
+      "allowLANConn": false,
+      "user": null,
+      "pass": null
+    }
+  ],
+  "vmess": [
+    {
+      "indexId": "5231264079767697366",
+      "configType": 5,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "dashboard.shadowrhythm.xyz",
+      "port": 10086,
+      "id": "1fd502f3-f46b-3c3e-a7b8-4db1ecc490bf",
+      "alterId": 0,
+      "security": "none",
+      "network": "tcp",
+      "remarks": "剩余流量：5.51GB",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4638100241275316534",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5169703117596464684",
+      "configType": 5,
+      "configVersion": 2,
+      "sort": 20,
+      "address": "dashboard.shadowrhythm.xyz",
+      "port": 10086,
+      "id": "1fd502f3-f46b-3c3e-a7b8-4db1ecc490bf",
+      "alterId": 0,
+      "security": "none",
+      "network": "tcp",
+      "remarks": "过期时间：2022-03-24",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "已取消一个任务。",
+      "subid": "4638100241275316534",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5498161152407799167",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 30,
+      "address": "155.94.194.41",
+      "port": 1641,
+      "id": "1fd502f3-f46b-3c3e-a7b8-4db1ecc490bf",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "USA | Please Select Node Manually",
+      "headerType": "none",
+      "requestHost": "default.ustc.cf",
+      "path": "/my8a965fl5",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "4638100241275316534",
+      "flow": "",
+      "sni": "default.ustc.cf",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "4885398446129638637",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 40,
+      "address": "83.92.176.14",
+      "port": 443,
+      "id": "1fd502f3-f46b-3c3e-a7b8-4db1ecc490bf",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "丹麦 B Aalborg|TDC|0.1🇩🇰",
+      "headerType": "none",
+      "requestHost": "arke.ntuu.cf",
+      "path": "/io1oytpx4l",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "  1.6 M/s",
+      "subid": "4638100241275316534",
+      "flow": "",
+      "sni": "arke.ntuu.cf",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5288828515397109591",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 80,
+      "address": "venus.worldbook.online",
+      "port": 443,
+      "id": "1fd502f3-f46b-3c3e-a7b8-4db1ecc490bf",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "俄罗斯 A Novosibirsk|Rostelecom|0.1🇷🇺",
+      "headerType": "none",
+      "requestHost": "venus.worldbook.online",
+      "path": "/utiq410onlor8bjj",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "  0.1 M/s",
+      "subid": "4638100241275316534",
+      "flow": "",
+      "sni": "venus.worldbook.online",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5724703160162521029",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 50,
+      "address": "apollo.age.hk",
+      "port": 443,
+      "id": "1fd502f3-f46b-3c3e-a7b8-4db1ecc490bf",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "俄罗斯 B Novosibirsk|TTK|0.1🇷🇺",
+      "headerType": "none",
+      "requestHost": "apollo.njnu.cf",
+      "path": "/yao631njbl",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "  0.1 M/s",
+      "subid": "4638100241275316534",
+      "flow": "",
+      "sni": "apollo.njnu.cf",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5295100622544019474",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 60,
+      "address": "astraios.age.hk",
+      "port": 8443,
+      "id": "1fd502f3-f46b-3c3e-a7b8-4db1ecc490bf",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "美国 A LasVegas|FranTech|CF|0.1🇺🇸",
+      "headerType": "none",
+      "requestHost": "astraios.njucm.cf",
+      "path": "/ey249tr1rm",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "  1.5 M/s",
+      "subid": "4638100241275316534",
+      "flow": "",
+      "sni": "astraios.njucm.cf",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5116947107002829183",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 70,
+      "address": "notus.age.hk",
+      "port": 443,
+      "id": "1fd502f3-f46b-3c3e-a7b8-4db1ecc490bf",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "美国 U SanJose|ColoCrossing|CF|0.1🇺🇸",
+      "headerType": "none",
+      "requestHost": "notus.njnu.cf",
+      "path": "/pbycyf9i54",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "  2.0 M/s",
+      "subid": "4638100241275316534",
+      "flow": "",
+      "sni": "notus.njnu.cf",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    }
+  ],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "subItem": [
+    {
+      "id": "4638100241275316534",
+      "remarks": "稳定免费",
+      "url": "https://dashboard.shadowrhythm.xyz/link/9cIJAsPBhcp6TSRQ?sub=3",
+      "enabled": true,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "5050523865642097320",
+      "remarks": "不大好节点",
+      "url": "https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/02-11j1.txt",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "5279356585217783209",
+      "remarks": "2",
+      "url": "https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": "5600885892290076744"
+    },
+    {
+      "id": "4650333711271012653",
+      "remarks": "3",
+      "url": "https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": "5600885892290076744"
+    },
+    {
+      "id": "5250598664811466517",
+      "remarks": "4",
+      "url": "https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/vmess.md",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": "5600885892290076744"
+    }
+  ],
+  "uiItem": {
+    "enableAutoAdjustMainLvColWidth": true,
+    "mainLocation": "-32000, -32000",
+    "mainSize": "160, 28",
+    "mainLvColWidth": {
+      "def": 27,
+      "configType": 47,
+      "remarks": 231,
+      "address": 194,
+      "port": 47,
+      "security": 60,
+      "network": 60,
+      "streamSecurity": 72,
+      "subRemarks": 64,
+      "testResult": 108,
+      "todayDown": 60,
+      "todayUp": 61,
+      "totalDown": 54,
+      "totalUp": 151
+    }
+  },
+  "routings": [
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [
+            "socks",
+            "http"
+          ],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:baidu.com",
+            "domain:dingtalk.com"
+          ],
+          "protocol": [
+            "http",
+            "tls",
+            "bittorrent"
+          ],
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": ""
+    },
+    {
+      "remarks": "黑名单(Blacklist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": [
+            "bittorrent"
+          ],
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": [
+            "geoip:telegram"
+          ],
+          "domain": [
+            "geosite:gfw",
+            "geosite:greatfire",
+            "geosite:tld-!cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "全局(Global)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "仅GitHub",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [
+            "socks",
+            "http",
+            "socks2",
+            "http2"
+          ],
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "domain:github.com"
+          ],
+          "protocol": [
+            "http",
+            "tls",
+            "bittorrent"
+          ],
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": ""
+    },
+    {
+      "remarks": "高级绕过大陆",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": [
+            "socks",
+            "http",
+            "socks2",
+            "http2"
+          ],
+          "outboundTag": "direct",
+          "ip": [],
+          "domain": [
+            "*.dingtalk.com",
+            "*.qq.com",
+            "*.cn"
+          ],
+          "protocol": [
+            "http",
+            "tls",
+            "bittorrent"
+          ],
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": ""
+    },
+    {
+      "remarks": "locked",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": [],
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [],
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": [],
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": true,
+      "customIcon": null
+    }
+  ],
+  "constItem": {
+    "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+    "speedPingTestUrl": "https://www.google.com/generate_204",
+    "defIEProxyExceptions": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*"
+  },
+  "globalHotkeys": [
+    {
+      "eGlobalHotkey": 0,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    },
+    {
+      "eGlobalHotkey": 1,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    },
+    {
+      "eGlobalHotkey": 2,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    },
+    {
+      "eGlobalHotkey": 3,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    }
+  ],
+  "groupItem": [
+    {
+      "id": "5600885892290076744",
+      "remarks": "2",
+      "sort": 0
+    }
+  ],
+  "coreTypeItem": [
+    {
+      "configType": 1,
+      "coreType": 1
+    },
+    {
+      "configType": 2,
+      "coreType": 1
+    },
+    {
+      "configType": 3,
+      "coreType": 1
+    },
+    {
+      "configType": 4,
+      "coreType": 1
+    },
+    {
+      "configType": 5,
+      "coreType": 1
+    },
+    {
+      "configType": 6,
+      "coreType": 1
+    }
+  ]
+}

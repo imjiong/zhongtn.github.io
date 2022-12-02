@@ -1,0 +1,20 @@
+2022-11-30 09:02:43,106 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.36 - 2022/09/20 | G:\Users\liqian\Downloads\v2rayN-Core\v2rayN.exe
+2022-11-30 09:03:44,286 [9] INFO  Log1 - UpdateTaskRun
+2022-11-30 09:04:00,420 [13] DEBUG Log2 - 发送请求时出错。
+2022-11-30 09:04:00,430 [13] DEBUG Log2 - System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 未能解析此远程名称: 'dashboard.shadowrhythm.xyz'
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-11-30 09:21:45,723 [1] INFO  Log1 - MyAppExit Begin
+2022-11-30 09:21:45,942 [1] INFO  Log1 - MyAppExit End
+2022-11-30 18:34:38,572 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.36 - 2022/09/20 | G:\Users\liqian\Downloads\v2rayN-Core\v2rayN.exe
+2022-11-30 18:35:39,957 [3] INFO  Log1 - UpdateTaskRun
+2022-11-30 20:14:22,504 [1] INFO  Log1 - MyAppExit Begin
+2022-11-30 20:14:22,668 [1] INFO  Log1 - MyAppExit End
